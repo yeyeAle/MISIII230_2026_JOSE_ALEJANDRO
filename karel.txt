@@ -1,0 +1,23 @@
+iniciar-programa
+    inicia-ejecucion
+        { TODO poner codigo aqui }
+        repetir 14 veces
+        inicio
+        si junto-a-zumbador entonces
+        inicio
+        avanza;
+        fin;
+        inicio 
+        deja-zumbador;
+        avanza;
+        fin;
+        fin;
+        si junto-a-zumbador entonces
+        inicio
+        fin;
+        inicio
+        deja-zumbador;
+        fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
