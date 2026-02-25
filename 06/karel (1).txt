@@ -1,0 +1,16 @@
+iniciar-programa
+    inicia-ejecucion
+        { TODO poner codigo aqui }
+        mientras no-junto-a-zumbador hacer
+        inicio
+         deja-zumbador;
+         avanza;
+        si frente-bloqueado entonces
+         inicio
+          gira-izquierda;
+          gira-izquierda;
+          gira-izquierda
+         fin;
+        fin;
+        termina-ejecucion
+finalizar-programa
