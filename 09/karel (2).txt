@@ -1,0 +1,10 @@
+iniciar-programa
+    inicia-ejecucion
+      si junto-a-zumbador y frente-libre entonces
+      	inicio
+        	coge-zumbador;
+            avanza;
+            deja-zumbador;
+        fin;
+    termina-ejecucion
+finalizar-programa
